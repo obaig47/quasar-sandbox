@@ -1,3 +1,4 @@
+<!-- This is the layout for the app, everything that surrounds the pages -->
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
@@ -30,6 +31,7 @@
     </q-drawer>
 
     <q-page-container>
+      <!-- THIS IS WHERE PAGES ARE LOADED -->
       <router-view />
     </q-page-container>
   </q-layout>

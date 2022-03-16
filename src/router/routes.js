@@ -1,3 +1,6 @@
+// IMPORTANT FILE
+// Assigns URLs to .vue components 
+
 const routes = [
   {
     path: "/",
